@@ -768,10 +768,10 @@ footer {
 }
 
 footer a {
-  color: #666;
+  color: #aaa;
 }
 footer a:hover {
-  color: #444;
+  color: #666;
 }
 
 /* MISC */
