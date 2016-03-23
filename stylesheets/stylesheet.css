@@ -465,6 +465,7 @@ header h1 {
   line-height: 1;
   color: #fff;
   letter-spacing: -1px;
+  font-style: italic;
 }
 
 header h2 {
@@ -538,6 +539,7 @@ a.button {
   line-height: 1.2;
   color: #474747;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
+  background-size: contain;
 }
 a.button small {
   display: block;
@@ -723,6 +725,7 @@ p {
 }
 
 a {
+  color: #0095dd;
   text-decoration: none;
 }
 
@@ -756,9 +759,8 @@ dl dd {
 
 footer {
   display: block;
-  height: 50px;
-  padding-top: 45px;
-  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
   margin-top: 40px;
   font-size: 13px;
   color: #aaa;
@@ -901,6 +903,7 @@ footer a:hover {
   height: 36px;
   background-image: url("../images/tabzilla-static.png");
   background-repeat: no-repeat;
+  background-size: contain;
   margin-left: 20px;
   z-index: 2;
 }
